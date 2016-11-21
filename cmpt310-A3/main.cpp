@@ -174,7 +174,12 @@ void output(vector<string> solution_output, vector<string> KB,vector<string> bod
             }
         }
     }
-
+    cout << "T means only these rules are ture that the query '" << query << "' will be true"<<endl;
+    cout << "The cahracter in the KB but abcent in the truth table means they are useless for proving the query." << endl << endl;
+    
+    cout << "---------------------------------------------" << endl;
+    cout << "----------------Truth Tbale------------------" << endl;
+    cout << "---------------------------------------------" << endl;
     for(int i = 0; i < character_arr01.size(); i++){
         cout << character_arr01[i] << "  ";
     }
