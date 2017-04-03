@@ -10,17 +10,17 @@ Instruction on running the program:
 1. Users should put the node data in the data.txt.
 
 	The fomula should look like the example provided below:
-		a
-		p
-		q p
-		d
-		g q j
-		e f
-		c f d
-		c d g
-		c e d
-		b j
-		a b c
-		j
+			a
+			p
+			q p
+			d
+			g q j
+			e f
+			c f d
+			c d g
+			c e d
+			b j
+			a b c
+			j
 
 2. I have uploaded the exmaple onto the repo. Please feel free to run the code directly using the example provided.
