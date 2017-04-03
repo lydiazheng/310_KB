@@ -10,6 +10,7 @@ Instruction on running the program:
 1. Users should put the node data in the data.txt.
 
 	The fomula should look like the example provided below:
+	
 			a
 			p
 			q p
