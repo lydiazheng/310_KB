@@ -7,7 +7,7 @@ C++ language for the whole program
 
 Instruction on running the program:
 
-1.Users should put the node data in the data.txt.
+1. Users should put the node data in the data.txt.
 
 	The fomula should look like the example provided below:
 		a
@@ -23,4 +23,4 @@ Instruction on running the program:
 		a b c
 		j
 
-2.I have uploaded the exmaple onto the repo. Pleas feel free to run the code directly using the example provided.
+2. I have uploaded the exmaple onto the repo. Please feel free to run the code directly using the example provided.
