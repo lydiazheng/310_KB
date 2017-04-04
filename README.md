@@ -5,9 +5,9 @@ Created by Lydia Zheng
 C++ language for the whole program
 -------------------------------------------------------------------------------------------------------------
 
-Instruction on running the program:
+Instructions on running the program:
 
-1. Users should put the node data in the data.txt.
+Step 1: Users should put the node data in the data.txt.
 
 	The fomula should look like the example provided below:
 	
@@ -24,4 +24,4 @@ Instruction on running the program:
 			a b c
 			j
 
-2. I have uploaded the exmaple onto the repo. Please feel free to run the code directly using the example provided.
+Step 2: I have uploaded the exmaple onto the repo. Please feel free to run the code directly using the example provided in the data.txt file.
