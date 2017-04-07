@@ -18,7 +18,7 @@ void output(vector<string> solution_output, vector<string> KB,vector<string> bod
 
 int main(){
     vector<string> rules; //set an array for each line in the database
-    vector<string> KB; //seth the knowledge base
+    vector<string> KB; //set the knowledge base
     
     //input file
     string line;
