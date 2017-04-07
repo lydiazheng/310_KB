@@ -17,8 +17,8 @@ bool BackwardChaining(vector<string> KB, vector<string> body, vector<string> &so
 void output(vector<string> solution_output, vector<string> KB,vector<string> body);
 
 int main(){
-    vector<string> rules; //an array for each line in the database
-    vector<string> KB; //the knowledge base
+    vector<string> rules; //set an array for each line in the database
+    vector<string> KB; //seth the knowledge base
     
     //input file
     string line;
@@ -41,19 +41,19 @@ int main(){
         rules[i].erase(remove(rules[i].begin(), rules[i].end(), ' '), rules[i].end());
     }
     
-    //know the query for the whole data
+    //obtain the query for the whole data
     string query;
     query = rules[0];
     
-    //have the knowledge base
+    //build the knowledge base
     for (int i = 0; i < (line_sum-1); i++){
         KB.push_back(rules[i+1]);
     }
 
-    vector<string> body; // the array for the character which need to determine whether it is ture or false
+    vector<string> body; // build an array for the character which needs to determine whether it is ture or false
     body.push_back(query); // initialize the body with the query
     
-    //start to backward chaining
+    //start the backward chaining
     vector<string> solution_output;
     bool solution;
     solution = BackwardChaining(KB, body, solution_output);
@@ -70,7 +70,7 @@ int main(){
 }
 
 
-//method which runs the backward chaining algorithm
+//declare the method that runs the backward chaining algorithm
 bool BackwardChaining(vector<string> KB,vector<string> body, vector<string> &solution_output){
     int count = 0; // count the character which is useless for the whole rule
     vector<string> body_new;
@@ -79,7 +79,7 @@ bool BackwardChaining(vector<string> KB,vector<string> body, vector<string> &sol
     if(body.size() == 0)
         return true;
 
-    //if the body array is not empty, use the backwardchaining method
+    //if the body array is not empty, then use the backwardchaining method
     string KB_line, head, KB_char;
     for(int i = 0; i < KB.size(); i++){
         KB_line = KB[i];
