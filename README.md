@@ -1,7 +1,13 @@
 # CMPT 310 Assignment 2
+## Introduction
+This is a school assignment to showcase the knowledge base algorithm. This project was written in C++.
 
-### C++ language for the whole program
+## Basic structure
+* `Screen Shot 2016-11-18 at 3.24.11 PM.png` - A decirption about backward chaining procedure is provided as an image.
+* `data.txt` - An example data input file
 
+## How to run
+Use c++ compiler to run cpp file `/cmpt310-A3/main.cpp`
 ## Instructions
 - [x] Step 1: Users should put the node data in the data.txt.
 
@@ -20,7 +26,7 @@
 			a b c
 			j
 
-- [x] Step 2: I have uploaded the exmaple onto the repo. Please feel free to run the code directly using the example provided in the data.txt file.
+- [x] Step 2: I have uploaded an example onto the repo. Please feel free to run the code directly using the example provided in the data.txt file.
 
 
 ## Credits
