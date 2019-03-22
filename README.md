@@ -3,7 +3,7 @@
 This is a school assignment to showcase the knowledge base algorithm. This project was written in C++.
 
 ## Basic structure
-* `Screen Shot 2016-11-18 at 3.24.11 PM.png` - A decirption about backward chaining procedure is provided as an image.
+* `Screen Shot 2016-11-18 at 3.24.11 PM.png` - The description about backward chaining procedure is illustrated as an image.
 * `data.txt` - An example data input file
 
 ## How to run
